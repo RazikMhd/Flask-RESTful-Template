@@ -16,7 +16,7 @@ elif app.config["ENV"] == "development":
 
 
 #hello world api
-import app.resources.sample.helloworld as hw
+import resources.sample.helloworld as hw
 api.add_resource(hw.HelloWorld, '/')
 
 
