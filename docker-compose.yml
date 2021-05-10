@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  flask_app:
+    build: .
+    ports:
+      - "9900:9900"

@@ -21,4 +21,4 @@ api.add_resource(hw.HelloWorld, '/')
 
 
 if __name__ == '__main__':
-    app.run(debug=True,port=app.config["API_PORT"])
+    app.run(debug=True,host ='0.0.0.0',port=app.config["API_PORT"])
